@@ -1,5 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
 body {
     background-color: #e7e7de;
+}
+
+.title {
+    font-family: 'Bungee Shade', cursive;
+    color: #008891;
+    font-size: 40px;
+    text-align: center;
+}
+
+.title-bomb {
+    font-family: 'Bungee Shade', cursive;
+    color: #008891;
+    font-size: 20px;
+    text-align: center;
 }
 
 .buttons {
@@ -21,5 +37,10 @@ body {
     cursor: pointer;
     padding-left: 10px;
     padding-right: 10px;
+    text-shadow: 1.5px 1.5px 0px rgb(173, 173, 173);
 }
 
+.buttons i:hover {
+    color: #00587a;
+    background: transparent;
+}
