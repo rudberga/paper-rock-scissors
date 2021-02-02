@@ -1,11 +1,14 @@
+// User choice
+
 const getUserChoice = userInput => {
-    userInput = userInput.toLowerCase();
     if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors' || userInput === 'bomb') {
         return userInput;
     } else {
         console.log('Invalid input, please try again');
     }
 };
+
+// Computer random choice
 
 function getComputerChoice() {
     var randomNumber = Math.floor(Math.random() * 3);
@@ -17,6 +20,8 @@ function getComputerChoice() {
         return 'scissors';
     }
 }
+
+// Determine the winner
 
 function determineWinner(userChoice, computerChoice) {
     if (userChoice === computerChoice) {
@@ -48,12 +53,36 @@ function determineWinner(userChoice, computerChoice) {
     }
 }
 
-function playGame() {
-    var userChoice = getUserChoice('bomb');
+// Play game functions
+
+function playGameRock() {
+    var userChoice = getUserChoice('rock');
     console.log(userChoice);
     var computerChoice = getComputerChoice();
     console.log(computerChoice);
     console.log(determineWinner(userChoice, computerChoice));
 }
 
-playGame();
+function playGamePaper() {
+    var userChoice = getUserChoice('paper');
+    console.log(userChoice);
+    var computerChoice = getComputerChoice();
+    console.log(computerChoice);
+    console.log(determineWinner(userChoice, computerChoice));
+}
+
+function playGameScissors() {
+    var userChoice = getUserChoice('scissors');
+    console.log(userChoice);
+    var computerChoice = getComputerChoice();
+    console.log(computerChoice);
+    console.log(determineWinner(userChoice, computerChoice));
+}
+
+function playGameBomb() {
+    var userChoice = getUserChoice('bomb');
+    console.log(userChoice);
+    var computerChoice = getComputerChoice();
+    console.log(computerChoice);
+    console.log(determineWinner(userChoice, computerChoice));
+}
