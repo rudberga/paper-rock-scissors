@@ -45,3 +45,11 @@ body {
     color: #00587a;
     background: transparent;
 }
+
+#winnerText {
+    font-family: 'Bungee Shade', cursive;
+    color: #008891;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 250px;
+}
