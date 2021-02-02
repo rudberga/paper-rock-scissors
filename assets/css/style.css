@@ -28,12 +28,13 @@ body {
 .buttons button {
     border: 0;
     background: transparent;
+    outline:0 !important;
 }
 
 .buttons i {
     color: #008891;
     background: transparent;
-    font-size: 60px;
+    font-size: 80px;
     cursor: pointer;
     padding-left: 10px;
     padding-right: 10px;
