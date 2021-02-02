@@ -61,6 +61,8 @@ function playGameRock() {
     var computerChoice = getComputerChoice();
     console.log(computerChoice);
     console.log(determineWinner(userChoice, computerChoice));
+    var winner = determineWinner(userChoice, computerChoice);
+    document.getElementById("winnerText").innerHTML = winner;
 }
 
 function playGamePaper() {
@@ -69,6 +71,8 @@ function playGamePaper() {
     var computerChoice = getComputerChoice();
     console.log(computerChoice);
     console.log(determineWinner(userChoice, computerChoice));
+    var winner = determineWinner(userChoice, computerChoice);
+    document.getElementById("winnerText").innerHTML = winner;
 }
 
 function playGameScissors() {
@@ -77,6 +81,8 @@ function playGameScissors() {
     var computerChoice = getComputerChoice();
     console.log(computerChoice);
     console.log(determineWinner(userChoice, computerChoice));
+    var winner = determineWinner(userChoice, computerChoice);
+    document.getElementById("winnerText").innerHTML = winner;
 }
 
 function playGameBomb() {
@@ -85,4 +91,6 @@ function playGameBomb() {
     var computerChoice = getComputerChoice();
     console.log(computerChoice);
     console.log(determineWinner(userChoice, computerChoice));
+    var winner = determineWinner(userChoice, computerChoice);
+    document.getElementById("winnerText").innerHTML = winner;
 }
