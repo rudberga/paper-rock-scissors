@@ -1,0 +1,25 @@
+body {
+    background-color: #e7e7de;
+}
+
+.buttons {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttons button {
+    border: 0;
+    background: transparent;
+}
+
+.buttons i {
+    color: #008891;
+    background: transparent;
+    font-size: 60px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
