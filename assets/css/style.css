@@ -9,6 +9,7 @@ body {
     color: #008891;
     font-size: 40px;
     text-align: center;
+    margin-top: 100px;
 }
 
 .title-bomb {
@@ -23,6 +24,7 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    margin-top: 50px;
 }
 
 .buttons button {
